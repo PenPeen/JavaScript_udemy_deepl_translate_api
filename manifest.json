@@ -1,0 +1,14 @@
+{
+  "name": "deepl",
+  "description": "udemy deepl",
+  "version": "0.1",
+  "manifest_version": 3,
+  "content_scripts": [{
+	"matches": ["https://*.udemy.com/*"],
+	"js": [
+		"src/libs/jquery-3.6.0.min.js",
+		"src/libs/jquery-ui.min.js",
+		"src/contentScript.js"
+	      ]
+    }]
+}
